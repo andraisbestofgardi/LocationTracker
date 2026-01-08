@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Pelacak Lokasi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  <h1>📍 Pelacak Lokasi</h1>
+  <p>Lacak lokasi Anda secara real-time dengan izin GPS</p>
+  <button onclick="getLocation()">Lacak Lokasi Saya</button>
+  <div id="status"></div>
+</div>
+
+<div id="map"></div>
+
+<script src="script.js"></script>
+<script async
+  src="https://maps.googleapis.com/maps/api/js?key=API_KEY_ANDA&callback=initMap">
+</script>
+
+</body>
+</html>
